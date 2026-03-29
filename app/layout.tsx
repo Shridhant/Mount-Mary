@@ -2,12 +2,18 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { ScrollProgressBar } from "@/components/shared/ScrollProgressBar";
 import { PageLoader } from "@/components/shared/PageLoader";
+import { LOGO_URL } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "Mount Mary Higher Secondary School | Chumukedima, Dimapur",
   description:
     "Mount Mary Higher Secondary School in Chumukedima, Dimapur, offering holistic education, academics, student life, and all-round development in Nagaland.",
   keywords: ["Mount Mary Higher Secondary School", "school Nagaland", "Dimapur school", "admission Nagaland"],
+  icons: {
+    icon: LOGO_URL,
+    shortcut: LOGO_URL,
+    apple: LOGO_URL,
+  },
   openGraph: {
     title: "Mount Mary Higher Secondary School | Chumukedima, Dimapur",
     description: "Mount Mary Higher Secondary School in Chumukedima, Dimapur, Nagaland.",
