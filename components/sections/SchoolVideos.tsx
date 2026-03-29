@@ -12,13 +12,13 @@ export function SchoolVideos() {
           </BlurFade>
           <BlurFade delay={0.1}>
             <h2 className="font-display font-800" style={{ fontSize: "var(--text-2xl)", color: "var(--text-primary)" }}>
-              Celebrations From Mount Mary School
+          Celebrations From Mount Mary Higher Secondary School
             </h2>
             <div className="gold-line mt-3" />
           </BlurFade>
           <BlurFade delay={0.2}>
             <p className="copy-body">
-              Explore moments from themed programmes, student participation, and festive celebrations that bring warmth and energy to campus life at Mount Mary School.
+          Explore moments from themed programmes, student participation, and festive celebrations that bring warmth and energy to campus life at Mount Mary Higher Secondary School.
             </p>
           </BlurFade>
           <BlurFade delay={0.25}>
@@ -37,7 +37,7 @@ export function SchoolVideos() {
           <div className="relative w-full overflow-hidden rounded-2xl border h-[280px] sm:h-[360px] lg:h-[420px]" style={{ borderColor: "var(--border)" }}>
             <Image
               src="https://mountmaryhsschool.in/wp-content/uploads/2021/03/15.jpg"
-              alt="Christmas event at Mount Mary School"
+              alt="Christmas event at Mount Mary Higher Secondary School"
               fill
               className="object-cover"
             />

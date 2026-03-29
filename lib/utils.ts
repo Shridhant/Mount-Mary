@@ -21,18 +21,18 @@ export const PILLARS = [
     label: "Academics",
     title: "Academic Excellence",
     description:
-      "Mount Mary School fosters a student-centered learning environment that develops strong academic foundations, curiosity, and the confidence to keep growing in every stage of school life.",
+    "Mount Mary Higher Secondary School fosters a student-centered learning environment that develops strong academic foundations, curiosity, and the confidence to keep growing in every stage of school life.",
     image: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/11.jpg",
-    alt: "Teachers guiding students at Mount Mary School",
+  alt: "Teachers guiding students at Mount Mary Higher Secondary School",
   },
   {
     id: "school-life",
     label: "School Life",
     title: "Vibrant School Life",
     description:
-      "School life at Mount Mary School is shaped by sharing, care, discipline, and participation, helping students grow socially, emotionally, and personally alongside their studies.",
+    "School life at Mount Mary Higher Secondary School is shaped by sharing, care, discipline, and participation, helping students grow socially, emotionally, and personally alongside their studies.",
     image: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/3.jpg",
-    alt: "Higher secondary students at Mount Mary School",
+  alt: "Higher secondary students at Mount Mary Higher Secondary School",
   },
   {
     id: "events",
@@ -41,7 +41,7 @@ export const PILLARS = [
     description:
       "Events and themed celebrations give students opportunities to express talent, build teamwork, and stay connected to culture and community in a lively school atmosphere.",
     image: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/19.jpg",
-    alt: "Themed event at Mount Mary School",
+  alt: "Themed event at Mount Mary Higher Secondary School",
   },
 ];
 
@@ -76,32 +76,32 @@ export const GALLERY_IMAGES = [
   {
     src: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/11.jpg",
     full: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/11.jpg",
-    alt: "Teaching students at Mount Mary School",
+  alt: "Teaching students at Mount Mary Higher Secondary School",
   },
   {
     src: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/3.jpg",
     full: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/3.jpg",
-    alt: "Higher secondary students at Mount Mary School",
+  alt: "Higher secondary students at Mount Mary Higher Secondary School",
   },
   {
     src: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/19.jpg",
     full: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/19.jpg",
-    alt: "Themed event at Mount Mary School",
+  alt: "Themed event at Mount Mary Higher Secondary School",
   },
   {
     src: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/15.jpg",
     full: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/15.jpg",
-    alt: "Christmas event at Mount Mary School",
+  alt: "Christmas event at Mount Mary Higher Secondary School",
   },
   {
     src: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/11.jpg",
     full: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/11.jpg",
-    alt: "Classroom interaction at Mount Mary School",
+  alt: "Classroom interaction at Mount Mary Higher Secondary School",
   },
   {
     src: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/3.jpg",
     full: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/3.jpg",
-    alt: "Senior students on campus at Mount Mary School",
+  alt: "Senior students on campus at Mount Mary Higher Secondary School",
   },
   {
     src: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/19.jpg",
@@ -111,12 +111,12 @@ export const GALLERY_IMAGES = [
   {
     src: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/15.jpg",
     full: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/15.jpg",
-    alt: "Christmas celebration at Mount Mary School",
+  alt: "Christmas celebration at Mount Mary Higher Secondary School",
   },
   {
     src: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/11.jpg",
     full: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/11.jpg",
-    alt: "Learning moment at Mount Mary School",
+  alt: "Learning moment at Mount Mary Higher Secondary School",
   },
 ];
 

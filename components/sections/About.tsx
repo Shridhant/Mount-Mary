@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const VALUES = [
   {
     title: "Our Philosophy",
-    body: "Mount Mary School believes in balanced education that helps students grow academically, personally, socially, and morally in a caring environment.",
+  body: "Mount Mary Higher Secondary School believes in balanced education that helps students grow academically, personally, socially, and morally in a caring environment.",
   },
   {
     title: "Our Principle",
@@ -28,7 +28,7 @@ export function About() {
           </BlurFade>
           <BlurFade delay={0.1}>
             <h2 className="font-display font-800 mb-3" style={{ fontSize: "var(--text-2xl)", color: "var(--text-primary)" }}>
-              The Mount Mary School Story
+            The Mount Mary Higher Secondary School Story
             </h2>
             <div className="gold-line" />
           </BlurFade>
@@ -50,7 +50,7 @@ export function About() {
               </p>
               <div className="rounded-2xl border px-5 py-4" style={{ borderColor: "var(--border)", background: "rgba(255,255,255,0.88)" }}>
                 <p className="text-[1.02rem] italic leading-[1.85]" style={{ color: "var(--text-secondary)" }}>
-                  &ldquo;At Mount Mary School, we aim to help students become compassionate, progressive, and confident individuals who are ready to contribute positively to society.&rdquo;
+              &ldquo;At Mount Mary Higher Secondary School, we aim to help students become compassionate, progressive, and confident individuals who are ready to contribute positively to society.&rdquo;
                 </p>
               </div>
             </BlurFade>
@@ -61,7 +61,7 @@ export function About() {
               <div className="relative rounded-[2rem] overflow-hidden border h-[280px] sm:h-[320px] lg:h-[360px]" style={{ borderColor: "var(--border)" }}>
                 <Image
                   src="https://mountmaryhsschool.in/wp-content/uploads/2021/03/11.jpg"
-                  alt="Students and teachers at Mount Mary School"
+                alt="Students and teachers at Mount Mary Higher Secondary School"
                   fill
                   className="object-cover"
                 />
@@ -93,7 +93,7 @@ export function About() {
                 <div className="relative rounded-2xl overflow-hidden border min-h-[110px]" style={{ borderColor: "var(--border)" }}>
                   <Image
                     src="https://mountmaryhsschool.in/wp-content/uploads/2021/03/19.jpg"
-                    alt="Student themed event at Mount Mary School"
+                alt="Student themed event at Mount Mary Higher Secondary School"
                     fill
                     className="object-cover"
                   />

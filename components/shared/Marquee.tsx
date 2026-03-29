@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 
 const ITEMS = [
-  "Academic Excellence", "Holistic Education", "Mount Mary School",
+  "Academic Excellence", "Holistic Education", "Mount Mary Higher Secondary School",
   "Student-Centered Learning", "4-Step Admission", "Campus Events",
   "Co-Curricular Activities", "Chumukedima, Dimapur", "Nagaland, India",
 ];

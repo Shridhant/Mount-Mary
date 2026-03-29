@@ -17,7 +17,7 @@ export default function AdmissionPage() {
           title="Admission Process"
           subtitle="A clear four-step journey from registration to final offer, with guidance from the school team throughout."
           image="https://mountmaryhsschool.in/wp-content/uploads/2021/03/3.jpg"
-          imageAlt="Students at Mount Mary School"
+      imageAlt="Students at Mount Mary Higher Secondary School"
         />
 
         <section className="section-padding section-paper-soft pt-8">
@@ -25,7 +25,7 @@ export default function AdmissionPage() {
             <div className="rounded-[2rem] border p-6 md:p-7 lg:sticky lg:top-24" style={{ borderColor: "var(--border)", background: "rgba(255,255,255,0.7)" }}>
               <span className="gold-label">Overview</span>
               <h2 className="font-display text-[1.9rem] md:text-[2.35rem] font-700" style={{ color: "var(--text-primary)" }}>
-                Mount Mary School Admission Process
+      Mount Mary Higher Secondary School Admission Process
               </h2>
               <div className="gold-line mt-4" />
               <p className="mt-5 text-[1.02rem] leading-[1.75]" style={{ color: "var(--text-secondary)" }}>
@@ -120,7 +120,7 @@ export default function AdmissionPage() {
                   Continue to the official school website
                 </h2>
                 <p className="mt-3 max-w-2xl text-[1.02rem] leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
-                  The official Mount Mary site remains the source for current notices, school updates, and contact details.
+      The official Mount Mary Higher Secondary School site remains the source for current notices, school updates, and contact details.
                 </p>
               </div>
               <a

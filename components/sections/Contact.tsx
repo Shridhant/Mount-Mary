@@ -36,7 +36,7 @@ export function Contact() {
           </BlurFade>
           <BlurFade delay={0.1}>
             <h2 className="font-display font-800" style={{ fontSize: "var(--text-2xl)", color: "var(--text-primary)" }}>
-              Contact Mount Mary School
+              Contact Mount Mary Higher Secondary School
             </h2>
             <div className="gold-line mt-3 mx-auto" />
           </BlurFade>

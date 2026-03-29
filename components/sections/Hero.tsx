@@ -47,7 +47,7 @@ export function Hero() {
               className="mt-7"
             >
               <p className="text-[11px] font-semibold uppercase tracking-[0.26em]" style={{ color: "var(--text-muted)" }}>
-                Mount Mary School
+                Mount Mary Higher Secondary School
               </p>
               <h1
                 className="mt-4 max-w-[10ch] font-display font-800 leading-[0.96] text-[clamp(2.8rem,7vw,4.8rem)]"
@@ -117,7 +117,7 @@ export function Hero() {
               <div className="relative h-[280px] overflow-hidden rounded-[1.7rem] sm:h-[340px] lg:h-[430px]">
                 <Image
                   src="https://mountmaryhsschool.in/wp-content/uploads/2021/03/3.jpg"
-                  alt="Campus life at Mount Mary School"
+                  alt="Campus life at Mount Mary Higher Secondary School"
                   fill
                   priority
                   className="object-cover"
@@ -144,7 +144,7 @@ export function Hero() {
                   style={{ borderColor: "var(--border)", background: "rgba(234,240,246,0.92)" }}
                 >
                   <div className="relative h-10 w-10 flex-shrink-0">
-                    <Image src={LOGO_URL} alt="Mount Mary School logo" fill className="object-contain" />
+                    <Image src={LOGO_URL} alt="Mount Mary Higher Secondary School logo" fill className="object-contain" />
                   </div>
                   <div>
                     <p className="text-[11px] font-semibold uppercase tracking-[0.18em]" style={{ color: "var(--text-muted)" }}>

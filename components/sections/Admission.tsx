@@ -95,7 +95,7 @@ export function Admission() {
               <div className="relative rounded-[2rem] overflow-hidden border h-[260px] sm:h-[300px] lg:h-[320px]" style={{ borderColor: "var(--border)" }}>
                 <Image
                   src="https://mountmaryhsschool.in/wp-content/uploads/2021/03/11.jpg"
-                  alt="Students at Mount Mary School"
+                alt="Students at Mount Mary Higher Secondary School"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"

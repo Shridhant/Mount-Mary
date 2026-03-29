@@ -36,7 +36,7 @@ export function ContactPageClient() {
                 <div>
                   <p className="text-xs uppercase tracking-widest" style={{ color: "var(--text-muted)" }}>Location</p>
                   <p className="mt-1 text-[1rem] leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
-                    Chumukedima, Dimapur - 797103, Nagaland, India
+                   Ward 9, Chümoukedima, Dimapur, Nagaland 797103, India
                   </p>
                   <a href={MAP_URL} target="_blank" rel="noreferrer" className="mt-2 inline-block text-sm hover:text-[var(--gold)]" style={{ color: "var(--text-primary)" }}>
                     View on Google Map

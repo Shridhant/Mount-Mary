@@ -22,11 +22,11 @@ export function Footer() {
           <div>
             <Link href="/" className="flex items-center gap-3 mb-3">
               <div className="relative w-9 h-9">
-                <Image src={LOGO_URL} alt="Mount Mary School" fill className="object-contain" />
+            <Image src={LOGO_URL} alt="Mount Mary Higher Secondary School" fill className="object-contain" />
               </div>
               <div>
                 <span className="font-display font-700 text-base block" style={{ color: "var(--text-primary)" }}>
-                  Mount Mary School
+            Mount Mary Higher Secondary School
                 </span>
                 <span className="text-[10px] tracking-widest uppercase" style={{ color: "var(--gold)" }}>
                   Chumukedima, Dimapur
@@ -99,7 +99,7 @@ export function Footer() {
           style={{ borderColor: "var(--border)" }}
         >
           <p className="text-xs" style={{ color: "var(--text-muted)" }}>
-            © {new Date().getFullYear()} Mount Mary School. All Rights Reserved.
+          © {new Date().getFullYear()} Mount Mary Higher Secondary School. All Rights Reserved.
           </p>
           <p className="text-xs" style={{ color: "var(--text-muted)" }}>
             Chumukedima, Dimapur · Nagaland, India

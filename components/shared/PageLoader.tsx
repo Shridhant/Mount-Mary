@@ -47,7 +47,7 @@ export function PageLoader() {
             <div className="relative w-24 h-24">
               <Image
                 src={LOGO_URL}
-                alt="Mount Mary School"
+            alt="Mount Mary Higher Secondary School"
                 fill
                 className="object-contain"
               />
@@ -56,7 +56,7 @@ export function PageLoader() {
             {/* Name */}
             <div className="text-center">
               <p className="font-display font-700 text-2xl tracking-wide" style={{ color: "var(--text-primary)" }}>
-                Mount Mary School
+            Mount Mary Higher Secondary School
               </p>
               <p className="text-xs mt-1 tracking-widest uppercase" style={{ color: "var(--gold)" }}>
                 Empowering Future Leaders

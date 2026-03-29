@@ -9,7 +9,7 @@ const VALUES = [
   {
     title: "Our Philosophy",
     body:
-      "Mount Mary School believes in balanced education that nurtures academic growth, character, confidence, and responsibility in every student.",
+      "Mount Mary Higher Secondary School believes in balanced education that nurtures academic growth, character, confidence, and responsibility in every student.",
   },
   {
     title: "Our Principle",
@@ -27,7 +27,7 @@ const HIGHLIGHTS = [
   {
     title: "Our Campus",
     body:
-      "Mount Mary School provides a lively and supportive learning environment in Chumukedima, helping students grow through academics and activities.",
+      "Mount Mary Higher Secondary School provides a lively and supportive learning environment in Chumukedima, helping students grow through academics and activities.",
     image: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/3.jpg",
     icon: School,
   },
@@ -57,7 +57,7 @@ export default function AboutPage() {
           title="Know Us Better"
           subtitle="A school shaped by holistic development, values, and purposeful learning in Chumukedima, Dimapur."
           image="https://mountmaryhsschool.in/wp-content/uploads/2021/03/11.jpg"
-          imageAlt="Students and teachers at Mount Mary School"
+      imageAlt="Students and teachers at Mount Mary Higher Secondary School"
         />
 
         <section className="section-padding section-paper-soft pt-8">
@@ -65,7 +65,7 @@ export default function AboutPage() {
             <div>
               <span className="gold-label">Story</span>
               <h2 className="font-display text-[1.9rem] md:text-[2.35rem] font-700" style={{ color: "var(--text-primary)" }}>
-                Mount Mary School at a Glance
+      Mount Mary Higher Secondary School at a Glance
               </h2>
               <div className="gold-line mt-4" />
               <div className="mt-6 space-y-5 text-[1.04rem] leading-[1.85]" style={{ color: "var(--text-secondary)" }}>
@@ -85,7 +85,7 @@ export default function AboutPage() {
               <div className="relative h-[260px] sm:h-[320px] md:h-[360px] rounded-[2rem] overflow-hidden border" style={{ borderColor: "var(--border)" }}>
                 <Image
                   src="https://mountmaryhsschool.in/wp-content/uploads/2021/03/19.jpg"
-                  alt="Student event at Mount Mary School"
+      alt="Student event at Mount Mary Higher Secondary School"
                   fill
                   className="object-cover"
                 />
@@ -93,7 +93,7 @@ export default function AboutPage() {
               <div className="rounded-[2rem] border p-6" style={{ borderColor: "var(--border)", background: "var(--surface)" }}>
                 <p className="text-xs uppercase tracking-widest" style={{ color: "var(--text-muted)" }}>Vision</p>
                 <p className="mt-3 text-[1.02rem] leading-[1.85] italic" style={{ color: "var(--text-secondary)" }}>
-                  "Mount Mary School strives to help students become compassionate, progressive, and professionally prepared human beings in an environment of care and growth."
+      "Mount Mary Higher Secondary School strives to help students become compassionate, progressive, and professionally prepared human beings in an environment of care and growth."
                 </p>
               </div>
             </div>
