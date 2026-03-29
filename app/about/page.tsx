@@ -9,17 +9,17 @@ const VALUES = [
   {
     title: "Our Philosophy",
     body:
-      "At El-Shaddai Academy, our philosophy is to provide a balanced education that nurtures both academic excellence and personal growth, empowering students to become ethical, confident, and well-rounded individuals who contribute positively to society.",
+      "Mount Mary School believes in balanced education that nurtures academic growth, character, confidence, and responsibility in every student.",
   },
   {
-    title: "El-Shaddai's Principle",
+    title: "Our Principle",
     body:
-      "Our guiding principle is to foster an environment where students are encouraged to think critically, act responsibly, and develop the skills necessary to lead purposeful and meaningful lives.",
+      "We encourage students to think clearly, act responsibly, and grow into purposeful individuals through discipline and care.",
   },
   {
     title: "Key to Success",
     body:
-      "The key to our success lies in our commitment to holistic education, where academic rigor, life skills, and ethical values come together to prepare students for success in both personal and professional spheres.",
+      "Our approach brings together learning, values, activities, and mentorship so students can grow holistically in school life.",
   },
 ];
 
@@ -27,22 +27,22 @@ const HIGHLIGHTS = [
   {
     title: "Our Campus",
     body:
-      "El-Shaddai Academy’s campus offers a peaceful, modern, and vibrant learning environment, equipped with facilities that support academic and extracurricular growth.",
-    image: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-21-768x512.jpg",
+      "Mount Mary School provides a lively and supportive learning environment in Chumukedima, helping students grow through academics and activities.",
+    image: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/3.jpg",
     icon: School,
   },
   {
     title: "Co-Curricular",
     body:
-      "Our co-curricular activities help students explore interests, develop new talents, and build leadership and teamwork beyond the classroom.",
-    image: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-20-768x512.jpg",
+      "Students are encouraged to participate in programmes and events that develop teamwork, confidence, creativity, and leadership.",
+    image: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/19.jpg",
     icon: Leaf,
   },
   {
     title: "Academics",
     body:
-      "With a strong focus on academic excellence, our curriculum inspires critical thinking, creativity, and a lifelong love of learning.",
-    image: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/Classroom-Uniform-4-768x512.jpg",
+      "A student-centered academic environment helps learners build strong foundations, curiosity, and readiness for the future.",
+    image: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/11.jpg",
     icon: GraduationCap,
   },
 ];
@@ -55,33 +55,28 @@ export default function AboutPage() {
         <PageIntro
           eyebrow="About Us"
           title="Know Us Better"
-          subtitle="A school built on vision, discipline, and holistic development in Dimapur, Nagaland."
-          image="https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-25-768x1154.jpg"
-          imageAlt="Students on campus at El-Shaddai Academy"
+          subtitle="A school shaped by holistic development, values, and purposeful learning in Chumukedima, Dimapur."
+          image="https://mountmaryhsschool.in/wp-content/uploads/2021/03/11.jpg"
+          imageAlt="Students and teachers at Mount Mary School"
         />
 
         <section className="section-padding section-paper-soft pt-8">
           <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1.05fr_0.95fr] gap-10 items-start">
             <div>
-              <span className="gold-label">History</span>
+              <span className="gold-label">Story</span>
               <h2 className="font-display text-[1.9rem] md:text-[2.35rem] font-700" style={{ color: "var(--text-primary)" }}>
-                El-Shaddai Academy's History
+                Mount Mary School at a Glance
               </h2>
               <div className="gold-line mt-4" />
               <div className="mt-6 space-y-5 text-[1.04rem] leading-[1.85]" style={{ color: "var(--text-secondary)" }}>
                 <p>
-                  El-Shaddai Academy was founded in 1996 by the late Mayang Teka Tzudir, a visionary businessman,
-                  with a dream to provide quality education. The journey began when the property of the renowned
-                  Pilgrim School, owned by Mr. Kikon, was sold to Mayang Teka.
+                  Mount Mary Higher Secondary School serves students in Chumukedima, Dimapur with a clear focus on holistic education and meaningful personal growth.
                 </p>
                 <p>
-                  The Academy started with 87 students, 5 teachers, and a small support staff. Ms. Durpati Gurung,
-                  our former long-serving administrator, played a crucial role in shaping the school through her
-                  steady work and leadership.
+                  The school experience is designed to support intellectual development, co-curricular participation, discipline, and a strong culture of sharing and caring.
                 </p>
                 <p>
-                  Today, the school is recognized by the Nagaland Board of School Education under registration number
-                  RR/5216/16 and serves over 700 students with 50 dedicated staff members.
+                  Through academics, activities, and mentorship, the school aims to help students become confident, compassionate, and socially responsible individuals.
                 </p>
               </div>
             </div>
@@ -89,8 +84,8 @@ export default function AboutPage() {
             <div className="space-y-5">
               <div className="relative h-[260px] sm:h-[320px] md:h-[360px] rounded-[2rem] overflow-hidden border" style={{ borderColor: "var(--border)" }}>
                 <Image
-                  src="https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-24-768x511.jpg"
-                  alt="Learning environment at El-Shaddai Academy"
+                  src="https://mountmaryhsschool.in/wp-content/uploads/2021/03/19.jpg"
+                  alt="Student event at Mount Mary School"
                   fill
                   className="object-cover"
                 />
@@ -98,9 +93,7 @@ export default function AboutPage() {
               <div className="rounded-[2rem] border p-6" style={{ borderColor: "var(--border)", background: "var(--surface)" }}>
                 <p className="text-xs uppercase tracking-widest" style={{ color: "var(--text-muted)" }}>Vision</p>
                 <p className="mt-3 text-[1.02rem] leading-[1.85] italic" style={{ color: "var(--text-secondary)" }}>
-                  "At El-Shaddai Academy, we are committed to fostering confident, responsible, and ethically aware
-                  individuals. Our vision is to inspire future generations of leaders who are both environmentally and
-                  socially conscious, capable of driving positive change in our society and beyond."
+                  "Mount Mary School strives to help students become compassionate, progressive, and professionally prepared human beings in an environment of care and growth."
                 </p>
               </div>
             </div>
@@ -176,7 +169,7 @@ export default function AboutPage() {
                 See how admission works
               </h2>
               <p className="mt-3 max-w-2xl text-[1.04rem] leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
-                If the school fits what you are looking for, the admission page lays out the full process clearly.
+                If the school feels right for your child, the admission page lays out the process clearly.
               </p>
             </div>
             <Link href="/admission" className="btn-gold">

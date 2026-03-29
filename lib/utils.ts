@@ -9,10 +9,10 @@ export const EASE_EXPO = [0.16, 1, 0.3, 1] as const;
 export const EASE_CIRC = [0.76, 0, 0.24, 1] as const;
 
 export const STATS = [
-  { value: 700, suffix: "+", label: "Students Enrolled" },
-  { value: 50, suffix: "+", label: "Dedicated Staff" },
-  { value: 1996, suffix: "", label: "Year Founded" },
-  { value: 28, suffix: "+", label: "Years of Excellence" },
+  { value: 3, suffix: "", label: "Core Pillars" },
+  { value: 4, suffix: "", label: "Admission Steps" },
+  { value: 1, suffix: "", label: "School Campus" },
+  { value: 100, suffix: "%", label: "Holistic Focus" },
 ];
 
 export const PILLARS = [
@@ -21,27 +21,27 @@ export const PILLARS = [
     label: "Academics",
     title: "Academic Excellence",
     description:
-      "El-Shaddai Academy prides itself on delivering high-quality education, focused on nurturing each student’s intellectual curiosity and critical thinking skills. Our academic program is designed to challenge and engage students while providing them with the tools they need to succeed in a rapidly changing world. With a dedicated team of teachers, small class sizes, and personalized attention, we emphasize not only academic excellence but also the holistic development of our students, ensuring they are equipped to face the challenges of tomorrow.",
-    image: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-23-768x512.jpg",
-    alt: "Students engaged in class",
+      "Mount Mary School fosters a student-centered learning environment that develops strong academic foundations, curiosity, and the confidence to keep growing in every stage of school life.",
+    image: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/11.jpg",
+    alt: "Teachers guiding students at Mount Mary School",
   },
   {
     id: "school-life",
     label: "School Life",
     title: "Vibrant School Life",
     description:
-      "At El-Shaddai Academy, school life is centered around a vibrant and inclusive community where students are encouraged to explore their passions and talents. We foster an environment where every child can grow holistically, learning not only from textbooks but also from experiences that shape their character. With a focus on building life skills, confidence, and responsibility, we provide a balanced approach to education, ensuring that students are well-prepared for the future, both personally and academically.",
-    image: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-25-768x1154.jpg",
-    alt: "Students in campus activities",
+      "School life at Mount Mary School is shaped by sharing, care, discipline, and participation, helping students grow socially, emotionally, and personally alongside their studies.",
+    image: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/3.jpg",
+    alt: "Higher secondary students at Mount Mary School",
   },
   {
-    id: "sports",
-    label: "Sports",
-    title: "Sports & Life Skills",
+    id: "events",
+    label: "Events",
+    title: "Culture, Events & Expression",
     description:
-      "Sports play a vital role in the physical and mental development of students at El-Shaddai Academy. Our sports programs are designed to promote teamwork, discipline, and resilience. We encourage students to participate in a variety of sports, helping them develop their athletic abilities while also fostering a spirit of healthy competition and cooperation. By balancing academics with physical education, we ensure that our students grow into well-rounded individuals, both on and off the field.",
-    image: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-22-768x512.jpg",
-    alt: "Students playing sports",
+      "Events and themed celebrations give students opportunities to express talent, build teamwork, and stay connected to culture and community in a lively school atmosphere.",
+    image: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/19.jpg",
+    alt: "Themed event at Mount Mary School",
   },
 ];
 
@@ -74,156 +74,51 @@ export const ADMISSION_STEPS = [
 
 export const GALLERY_IMAGES = [
   {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-25-768x1154.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-25-scaled.jpg",
-    alt: "Gallery image 25",
+    src: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/11.jpg",
+    full: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/11.jpg",
+    alt: "Teaching students at Mount Mary School",
   },
   {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-24-768x511.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-24-scaled.jpg",
-    alt: "Gallery image 24",
+    src: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/3.jpg",
+    full: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/3.jpg",
+    alt: "Higher secondary students at Mount Mary School",
   },
   {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-23-768x512.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-23-scaled.jpg",
-    alt: "Gallery image 23",
+    src: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/19.jpg",
+    full: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/19.jpg",
+    alt: "Themed event at Mount Mary School",
   },
   {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-22-768x512.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-22-scaled.jpg",
-    alt: "Gallery image 22",
+    src: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/15.jpg",
+    full: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/15.jpg",
+    alt: "Christmas event at Mount Mary School",
   },
   {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-21-768x512.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-21-scaled.jpg",
-    alt: "Gallery image 21",
+    src: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/11.jpg",
+    full: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/11.jpg",
+    alt: "Classroom interaction at Mount Mary School",
   },
   {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-20-768x512.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-20-scaled.jpg",
-    alt: "Gallery image 20",
+    src: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/3.jpg",
+    full: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/3.jpg",
+    alt: "Senior students on campus at Mount Mary School",
   },
   {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-19-768x512.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-19-scaled.jpg",
-    alt: "Gallery image 19",
+    src: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/19.jpg",
+    full: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/19.jpg",
+    alt: "Student performance during a themed event",
   },
   {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-18-768x512.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-18-scaled.jpg",
-    alt: "Gallery image 18",
+    src: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/15.jpg",
+    full: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/15.jpg",
+    alt: "Christmas celebration at Mount Mary School",
   },
   {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-17-768x512.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-17-scaled.jpg",
-    alt: "Gallery image 17",
-  },
-  {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-16-768x512.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-16-scaled.jpg",
-    alt: "Gallery image 16",
-  },
-  {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-15-768x512.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-15-scaled.jpg",
-    alt: "Gallery image 15",
-  },
-  {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-14-768x512.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-14-scaled.jpg",
-    alt: "Gallery image 14",
-  },
-  {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-13-768x1024.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-13-scaled.jpg",
-    alt: "Gallery image 13",
-  },
-  {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-12-768x512.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-12-scaled.jpg",
-    alt: "Gallery image 12",
-  },
-  {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-11-768x1024.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-11-scaled.jpg",
-    alt: "Gallery image 11",
-  },
-  {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-10-768x512.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-10-scaled.jpg",
-    alt: "Gallery image 10",
-  },
-  {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-9-768x1663.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-9-scaled.jpg",
-    alt: "Gallery image 9",
-  },
-  {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-8-768x512.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-8-scaled.jpg",
-    alt: "Gallery image 8",
-  },
-  {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-7-768x576.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-7-scaled.jpg",
-    alt: "Gallery image 7",
-  },
-  {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-6-768x512.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-6-scaled.jpg",
-    alt: "Gallery image 6",
-  },
-  {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-5-768x577.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-5-scaled.jpg",
-    alt: "Gallery image 5",
-  },
-  {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-4-768x512.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-4-scaled.jpg",
-    alt: "Gallery image 4",
-  },
-  {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-3-768x512.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-3-scaled.jpg",
-    alt: "Gallery image 3",
-  },
-  {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-2-768x576.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-2-scaled.jpg",
-    alt: "Gallery image 2",
-  },
-  {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-1-768x511.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-1-scaled.jpg",
-    alt: "Gallery image 1",
-  },
-  {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/Classroom-Uniform-5-768x512.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/Classroom-Uniform-5-scaled.jpg",
-    alt: "Classroom uniform 5",
-  },
-  {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/Classroom-Uniform-4-768x512.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/Classroom-Uniform-4-scaled.jpg",
-    alt: "Classroom uniform 4",
-  },
-  {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/Classroom-Uniform-3-768x512.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/Classroom-Uniform-3-scaled.jpg",
-    alt: "Classroom uniform 3",
-  },
-  {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/Classroom-Uniform-2-768x512.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/Classroom-Uniform-2-scaled.jpg",
-    alt: "Classroom uniform 2",
-  },
-  {
-    src: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/Classroom-Uniform-1-768x512.jpg",
-    full: "https://elshaddaiacademy.org/wp-content/uploads/2024/10/Classroom-Uniform-1-scaled.jpg",
-    alt: "Classroom uniform 1",
+    src: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/11.jpg",
+    full: "https://mountmaryhsschool.in/wp-content/uploads/2021/03/11.jpg",
+    alt: "Learning moment at Mount Mary School",
   },
 ];
 
 export const LOGO_URL =
-  "https://elshaddaiacademy.org/wp-content/uploads/2024/09/El-Shaddai-Logo-Transparent.png";
+  "https://play-lh.googleusercontent.com/DN3A5aCtTXt30EhnBqJ24kIrlPyUqlGFXK3IH4Mr_noPMXJ9RJLo7xqCiEDnLa0dt7A=w240-h480-rw";

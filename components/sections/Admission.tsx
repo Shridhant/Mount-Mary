@@ -26,8 +26,7 @@ export function Admission() {
           </BlurFade>
           <BlurFade delay={0.2}>
             <p className="copy-lead mb-8">
-              Our Admissions team will guide you through a smooth entry — from registration
-              until your child joins the school — through our clear 4-step process.
+              Our school team will guide you through a smooth entry from registration until your child joins the school through our clear 4-step process.
             </p>
           </BlurFade>
         </div>
@@ -85,7 +84,7 @@ export function Admission() {
                   Start Application <ArrowRight className="w-4 h-4" />
                 </Link>
                 <Link href="/contact-us" className="btn-outline">
-                  Contact Admissions
+                  Contact School
                 </Link>
               </div>
             </BlurFade>
@@ -95,18 +94,15 @@ export function Admission() {
             <div className="space-y-4 lg:sticky lg:top-24 lg:pt-1">
               <div className="relative rounded-[2rem] overflow-hidden border h-[260px] sm:h-[300px] lg:h-[320px]" style={{ borderColor: "var(--border)" }}>
                 <Image
-                  src="https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-21-768x512.jpg"
-                  alt="Students at El-Shaddai Academy"
+                  src="https://mountmaryhsschool.in/wp-content/uploads/2021/03/11.jpg"
+                  alt="Students at Mount Mary School"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
               </div>
 
-              <div
-                className="rounded-[1.75rem] border p-5"
-                style={{ background: "rgba(255,255,255,0.92)", borderColor: "var(--border)" }}
-              >
+              <div className="rounded-[1.75rem] border p-5" style={{ background: "rgba(255,255,255,0.92)", borderColor: "var(--border)" }}>
                 <div className="flex items-center gap-3">
                   <div
                     className="w-11 h-11 rounded-full flex items-center justify-center font-display font-800 text-sm shrink-0"
@@ -129,10 +125,7 @@ export function Admission() {
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div
-                  className="rounded-2xl p-5"
-                  style={{ background: "rgba(255,255,255,0.88)", border: "1px solid var(--border)" }}
-                >
+                <div className="rounded-2xl p-5" style={{ background: "rgba(255,255,255,0.88)", border: "1px solid var(--border)" }}>
                   <p className="font-display font-700 text-lg" style={{ color: "var(--text-primary)" }}>
                     Office Hours
                   </p>
@@ -143,15 +136,12 @@ export function Admission() {
                   </p>
                 </div>
 
-                <div
-                  className="rounded-2xl p-5"
-                  style={{ background: "rgba(255,255,255,0.88)", border: "1px solid var(--border-gold)" }}
-                >
+                <div className="rounded-2xl p-5" style={{ background: "rgba(255,255,255,0.88)", border: "1px solid var(--border-gold)" }}>
                   <p className="font-display font-700 text-lg" style={{ color: "var(--text-primary)" }}>
                     Admission Forms
                   </p>
                   <p className="text-[0.98rem] mt-2 leading-[1.7]" style={{ color: "var(--text-secondary)" }}>
-                    Available at the school office. Early submission is advised because forms are processed on a first-come, first-served basis.
+                    Available through the school office and official contact channels. Early submission is advised.
                   </p>
                 </div>
               </div>

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { MapPin, Phone, Facebook } from "lucide-react";
+import { Globe, MapPin } from "lucide-react";
 import { LOGO_URL } from "@/lib/utils";
 
 const NAV = [
@@ -19,28 +19,25 @@ export function Footer() {
     >
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-
-          {/* Brand */}
           <div>
             <Link href="/" className="flex items-center gap-3 mb-3">
               <div className="relative w-9 h-9">
-                <Image src={LOGO_URL} alt="El-Shaddai Academy" fill className="object-contain" />
+                <Image src={LOGO_URL} alt="Mount Mary School" fill className="object-contain" />
               </div>
               <div>
                 <span className="font-display font-700 text-base block" style={{ color: "var(--text-primary)" }}>
-                  El-Shaddai Academy
+                  Mount Mary School
                 </span>
                 <span className="text-[10px] tracking-widest uppercase" style={{ color: "var(--gold)" }}>
-                  Est. 1996
+                  Chumukedima, Dimapur
                 </span>
               </div>
             </Link>
             <p className="text-xs leading-relaxed max-w-xs" style={{ color: "var(--text-muted)" }}>
-              Committed to fostering confident, responsible, and ethically aware individuals — inspiring future generations of leaders.
+              Nurturing compassionate, responsible, and confident learners through holistic education and a caring school environment.
             </p>
           </div>
 
-          {/* Links */}
           <div>
             <h4 className="text-xs uppercase tracking-widest font-semibold mb-3" style={{ color: "var(--gold)" }}>
               Navigate
@@ -48,8 +45,7 @@ export function Footer() {
             <ul className="flex flex-col gap-2">
               {NAV.map((l) => (
                 <li key={l.label}>
-                  <Link href={l.href} className="text-xs hover:text-[var(--gold)] transition-colors"
-                    style={{ color: "var(--text-muted)" }}>
+                  <Link href={l.href} className="text-xs hover:text-[var(--gold)] transition-colors" style={{ color: "var(--text-muted)" }}>
                     {l.label}
                   </Link>
                 </li>
@@ -57,7 +53,6 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Contact */}
           <div>
             <h4 className="text-xs uppercase tracking-widest font-semibold mb-3" style={{ color: "var(--gold)" }}>
               Contact
@@ -66,38 +61,48 @@ export function Footer() {
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-3.5 h-3.5 mt-0.5 flex-shrink-0" style={{ color: "var(--gold)" }} />
                 <p className="text-xs leading-relaxed" style={{ color: "var(--text-muted)" }}>
-                  138, Duncan Rd, Duncan Basti,<br />Dimapur, Nagaland 797113
+                  Chumukedima,
+                  <br />
+                  Dimapur - 797103, Nagaland, India
                 </p>
               </div>
               <div className="flex items-center gap-2.5">
-                <Phone className="w-3.5 h-3.5 flex-shrink-0" style={{ color: "var(--gold)" }} />
-                <a href="tel:+913862355024" className="text-xs hover:text-[var(--gold)] transition-colors"
-                  style={{ color: "var(--text-muted)" }}>
-                  +91 3862 355024
+                <Globe className="w-3.5 h-3.5 flex-shrink-0" style={{ color: "var(--gold)" }} />
+                <a
+                  href="https://mountmaryhsschool.in/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-xs hover:text-[var(--gold)] transition-colors"
+                  style={{ color: "var(--text-muted)" }}
+                >
+                  mountmaryhsschool.in
                 </a>
               </div>
               <div className="flex items-center gap-2.5">
-                <Facebook className="w-3.5 h-3.5 flex-shrink-0" style={{ color: "var(--gold)" }} />
-                <a href="https://www.facebook.com/esadmr98/" target="_blank" rel="noreferrer"
+                <Globe className="w-3.5 h-3.5 flex-shrink-0" style={{ color: "var(--gold)" }} />
+                <a
+                  href="https://mountmaryhsschool.in/contact-us/"
+                  target="_blank"
+                  rel="noreferrer"
                   className="text-xs hover:text-[var(--gold)] transition-colors"
-                  style={{ color: "var(--text-muted)" }}>
-                  facebook.com/esadmr98
+                  style={{ color: "var(--text-muted)" }}
+                >
+                  Official Contact Page
                 </a>
               </div>
             </div>
           </div>
         </div>
 
-        {/* Bottom bar */}
         <div
           className="pt-5 border-t flex flex-col sm:flex-row justify-between items-center gap-2"
           style={{ borderColor: "var(--border)" }}
         >
           <p className="text-xs" style={{ color: "var(--text-muted)" }}>
-            © {new Date().getFullYear()} El-Shaddai Academy. All Rights Reserved.
+            © {new Date().getFullYear()} Mount Mary School. All Rights Reserved.
           </p>
           <p className="text-xs" style={{ color: "var(--text-muted)" }}>
-            NBSE Reg. No. RR/5216/16 · Dimapur, Nagaland
+            Chumukedima, Dimapur · Nagaland, India
           </p>
         </div>
       </div>

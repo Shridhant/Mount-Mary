@@ -2,9 +2,9 @@
 import { motion } from "framer-motion";
 
 const ITEMS = [
-  "Academic Excellence", "NBSE Recognised", "Est. 1996",
-  "700+ Students", "50+ Staff", "Holistic Education",
-  "Sports & Athletics", "Co-Curricular Activities", "Dimapur, Nagaland",
+  "Academic Excellence", "Holistic Education", "Mount Mary School",
+  "Student-Centered Learning", "4-Step Admission", "Campus Events",
+  "Co-Curricular Activities", "Chumukedima, Dimapur", "Nagaland, India",
 ];
 
 export function MarqueeBanner() {

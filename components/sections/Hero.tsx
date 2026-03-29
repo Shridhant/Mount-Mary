@@ -9,9 +9,9 @@ import { LOGO_URL } from "@/lib/utils";
 const EASE_EXPO = [0.16, 1, 0.3, 1] as const;
 
 const HIGHLIGHTS = [
-  { value: "700+", label: "Students" },
-  { value: "50+", label: "Staff" },
-  { value: "1996", label: "Founded" },
+  { value: "3", label: "Core Pillars" },
+  { value: "4", label: "Admission Steps" },
+  { value: "1", label: "Campus" },
 ];
 
 export function Hero() {
@@ -47,7 +47,7 @@ export function Hero() {
               className="mt-7"
             >
               <p className="text-[11px] font-semibold uppercase tracking-[0.26em]" style={{ color: "var(--text-muted)" }}>
-                El-Shaddai Academy
+                Mount Mary School
               </p>
               <h1
                 className="mt-4 max-w-[10ch] font-display font-800 leading-[0.96] text-[clamp(2.8rem,7vw,4.8rem)]"
@@ -116,8 +116,8 @@ export function Hero() {
             <div className="relative overflow-hidden rounded-[2.2rem] border p-3 shadow-[0_18px_50px_rgba(24,57,43,0.08)] md:p-3.5" style={{ borderColor: "var(--border)", background: "rgba(251,253,251,0.76)" }}>
               <div className="relative h-[280px] overflow-hidden rounded-[1.7rem] sm:h-[340px] lg:h-[430px]">
                 <Image
-                  src="https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-21-768x512.jpg"
-                  alt="Campus life at El-Shaddai Academy"
+                  src="https://mountmaryhsschool.in/wp-content/uploads/2021/03/3.jpg"
+                  alt="Campus life at Mount Mary School"
                   fill
                   priority
                   className="object-cover"
@@ -135,7 +135,7 @@ export function Hero() {
                     Holistic Education for Every Child
                   </p>
                   <p className="mt-2 max-w-md text-[1rem] leading-[1.75]" style={{ color: "var(--text-secondary)" }}>
-                    A balanced school life shaped by academics, co-curricular learning, sports, and character formation.
+                    A balanced school life shaped by academics, co-curricular learning, values, and character formation.
                   </p>
                 </div>
 
@@ -144,14 +144,14 @@ export function Hero() {
                   style={{ borderColor: "var(--border)", background: "rgba(234,240,246,0.92)" }}
                 >
                   <div className="relative h-10 w-10 flex-shrink-0">
-                    <Image src={LOGO_URL} alt="El-Shaddai Academy logo" fill className="object-contain" />
+                    <Image src={LOGO_URL} alt="Mount Mary School logo" fill className="object-contain" />
                   </div>
                   <div>
                     <p className="text-[11px] font-semibold uppercase tracking-[0.18em]" style={{ color: "var(--text-muted)" }}>
-                      NBSE Reg. No.
+                      School City
                     </p>
                     <p className="mt-1 font-display text-lg font-700 leading-none" style={{ color: "var(--text-primary)" }}>
-                      RR/5216/16
+                      Dimapur
                     </p>
                   </div>
                 </div>
@@ -167,7 +167,7 @@ export function Hero() {
                   School Life
                 </p>
                 <p className="mt-2 text-[0.98rem] leading-[1.72]" style={{ color: "var(--text-secondary)" }}>
-                  Excellence in academics, campus life, and character formation in one steady learning environment.
+                  Excellence in academics, campus life, and student development in one caring learning environment.
                 </p>
               </div>
             </div>

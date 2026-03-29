@@ -42,14 +42,14 @@ export function Navbar() {
       <div className="section-x flex items-center justify-between h-16 md:h-[4.5rem] max-w-7xl mx-auto">
         <Link href="/" className="flex items-center gap-3 group">
           <div className="relative w-9 h-9">
-            <Image src={LOGO_URL} alt="El-Shaddai Academy" fill className="object-contain" />
+            <Image src={LOGO_URL} alt="Mount Mary School" fill className="object-contain" />
           </div>
           <div>
             <span className="font-display font-700 text-base leading-none block" style={{ color: "var(--text-primary)" }}>
-              El-Shaddai
+              Mount Mary
             </span>
             <span className="text-[10px] leading-none tracking-widest uppercase" style={{ color: "var(--gold)" }}>
-              Academy
+              School
             </span>
           </div>
         </Link>

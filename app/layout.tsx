@@ -4,15 +4,15 @@ import { ScrollProgressBar } from "@/components/shared/ScrollProgressBar";
 import { PageLoader } from "@/components/shared/PageLoader";
 
 export const metadata: Metadata = {
-  title: "El-Shaddai Academy | Empowering Future Leaders",
+  title: "Mount Mary School | Chumukedima, Dimapur",
   description:
-    "A premier NBSE-recognised school in Dimapur, Nagaland. Founded 1996. Holistic education for over 700 students — academics, sports, and life skills.",
-  keywords: ["El-Shaddai Academy", "school Nagaland", "Dimapur school", "NBSE school", "admission Nagaland"],
+    "Mount Mary Higher Secondary School in Chumukedima, Dimapur, offering holistic education, academics, student life, and all-round development in Nagaland.",
+  keywords: ["Mount Mary School", "Mount Mary Higher Secondary School", "school Nagaland", "Dimapur school", "admission Nagaland"],
   openGraph: {
-    title: "El-Shaddai Academy | Empowering Future Leaders",
-    description: "Premier NBSE-recognised school in Dimapur, Nagaland.",
+    title: "Mount Mary School | Chumukedima, Dimapur",
+    description: "Mount Mary Higher Secondary School in Chumukedima, Dimapur, Nagaland.",
     type: "website",
-    url: "https://elshaddaiacademy.org",
+    url: "https://mountmaryhsschool.in",
   },
 };
 

@@ -2,10 +2,13 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Facebook, Mail, MapPin, Phone } from "lucide-react";
+import { Globe, Mail, MapPin } from "lucide-react";
 
 const inputClass =
   "w-full rounded-2xl border px-4 py-3 text-sm outline-none transition-colors focus:border-[var(--gold)]";
+
+const MAP_URL =
+  "https://www.google.com/maps/search/?api=1&query=Mount+Mary+Hr.+Sec.+School+Chumukedima+Dimapur+Nagaland";
 
 export function ContactPageClient() {
   const [form, setForm] = useState({
@@ -22,7 +25,7 @@ export function ContactPageClient() {
         <div className="space-y-6">
           <div className="rounded-[2rem] border p-6 md:p-8" style={{ borderColor: "var(--border)", background: "var(--bg-light)" }}>
             <h2 className="font-display text-2xl md:text-3xl font-700" style={{ color: "var(--text-primary)" }}>
-              Visit or Call
+              Visit or Connect
             </h2>
             <div className="gold-line mt-4" />
             <div className="mt-8 space-y-6">
@@ -33,15 +36,9 @@ export function ContactPageClient() {
                 <div>
                   <p className="text-xs uppercase tracking-widest" style={{ color: "var(--text-muted)" }}>Location</p>
                   <p className="mt-1 text-[1rem] leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
-                    138, Duncan Rd, Duncan Basti, Dimapur, Nagaland 797113
+                    Chumukedima, Dimapur - 797103, Nagaland, India
                   </p>
-                  <a
-                    href="https://www.google.com/maps/place/El-Shaddai+Academy/@25.912707,93.7054598,17z/data=!3m1!4b1!4m6!3m5!1s0x3745e19b60c00ee3:0x1a5ac8f5f6d42bc7!8m2!3d25.9127022!4d93.7080401!16s%2Fg%2F1tftjkwn?entry=ttu"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="mt-2 inline-block text-sm hover:text-[var(--gold)]"
-                    style={{ color: "var(--text-primary)" }}
-                  >
+                  <a href={MAP_URL} target="_blank" rel="noreferrer" className="mt-2 inline-block text-sm hover:text-[var(--gold)]" style={{ color: "var(--text-primary)" }}>
                     View on Google Map
                   </a>
                 </div>
@@ -49,30 +46,24 @@ export function ContactPageClient() {
 
               <div className="flex items-start gap-4">
                 <div className="mt-1 rounded-2xl border p-3" style={{ borderColor: "var(--border-gold)", background: "var(--gold-bg)" }}>
-                  <Phone className="h-4 w-4" style={{ color: "var(--gold)" }} />
+                  <Globe className="h-4 w-4" style={{ color: "var(--gold)" }} />
                 </div>
                 <div>
-                  <p className="text-xs uppercase tracking-widest" style={{ color: "var(--text-muted)" }}>Phone</p>
-                  <a href="tel:+913862355024" className="mt-1 inline-block text-sm" style={{ color: "var(--text-secondary)" }}>
-                    +91 3862 355024
+                  <p className="text-xs uppercase tracking-widest" style={{ color: "var(--text-muted)" }}>Website</p>
+                  <a href="https://mountmaryhsschool.in/" target="_blank" rel="noreferrer" className="mt-1 inline-block text-sm" style={{ color: "var(--text-secondary)" }}>
+                    mountmaryhsschool.in
                   </a>
                 </div>
               </div>
 
               <div className="flex items-start gap-4">
                 <div className="mt-1 rounded-2xl border p-3" style={{ borderColor: "var(--border-gold)", background: "var(--gold-bg)" }}>
-                  <Facebook className="h-4 w-4" style={{ color: "var(--gold)" }} />
+                  <Globe className="h-4 w-4" style={{ color: "var(--gold)" }} />
                 </div>
                 <div>
-                  <p className="text-xs uppercase tracking-widest" style={{ color: "var(--text-muted)" }}>Facebook</p>
-                  <a
-                    href="https://www.facebook.com/esadmr98/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="mt-1 inline-block text-sm"
-                    style={{ color: "var(--text-secondary)" }}
-                  >
-                    facebook.com/esadmr98
+                  <p className="text-xs uppercase tracking-widest" style={{ color: "var(--text-muted)" }}>Official Contact</p>
+                  <a href="https://mountmaryhsschool.in/contact-us/" target="_blank" rel="noreferrer" className="mt-1 inline-block text-sm" style={{ color: "var(--text-secondary)" }}>
+                    Open contact page
                   </a>
                 </div>
               </div>
@@ -113,11 +104,7 @@ export function ContactPageClient() {
               <p className="mt-2 text-[1rem] leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
                 This form is currently front-end only. The layout is ready, but it still needs a real submission endpoint.
               </p>
-              <button
-                type="button"
-                onClick={() => setSent(false)}
-                className="btn-outline mt-5"
-              >
+              <button type="button" onClick={() => setSent(false)} className="btn-outline mt-5">
                 Send another message
               </button>
             </div>
@@ -129,35 +116,10 @@ export function ContactPageClient() {
                 setSent(true);
               }}
             >
-              <input
-                className={inputClass}
-                style={{ borderColor: "var(--border)", color: "var(--text-primary)", background: "#fff" }}
-                placeholder="Full Name"
-                value={form.name}
-                onChange={(event) => setForm({ ...form, name: event.target.value })}
-              />
-              <input
-                className={inputClass}
-                style={{ borderColor: "var(--border)", color: "var(--text-primary)", background: "#fff" }}
-                type="email"
-                placeholder="Email"
-                value={form.email}
-                onChange={(event) => setForm({ ...form, email: event.target.value })}
-              />
-              <input
-                className={inputClass}
-                style={{ borderColor: "var(--border)", color: "var(--text-primary)", background: "#fff" }}
-                placeholder="Subject"
-                value={form.subject}
-                onChange={(event) => setForm({ ...form, subject: event.target.value })}
-              />
-              <textarea
-                className={`${inputClass} min-h-40 resize-none`}
-                style={{ borderColor: "var(--border)", color: "var(--text-primary)", background: "#fff" }}
-                placeholder="Message"
-                value={form.message}
-                onChange={(event) => setForm({ ...form, message: event.target.value })}
-              />
+              <input className={inputClass} style={{ borderColor: "var(--border)", color: "var(--text-primary)", background: "#fff" }} placeholder="Full Name" value={form.name} onChange={(event) => setForm({ ...form, name: event.target.value })} />
+              <input className={inputClass} style={{ borderColor: "var(--border)", color: "var(--text-primary)", background: "#fff" }} type="email" placeholder="Email" value={form.email} onChange={(event) => setForm({ ...form, email: event.target.value })} />
+              <input className={inputClass} style={{ borderColor: "var(--border)", color: "var(--text-primary)", background: "#fff" }} placeholder="Subject" value={form.subject} onChange={(event) => setForm({ ...form, subject: event.target.value })} />
+              <textarea className={`${inputClass} min-h-40 resize-none`} style={{ borderColor: "var(--border)", color: "var(--text-primary)", background: "#fff" }} placeholder="Message" value={form.message} onChange={(event) => setForm({ ...form, message: event.target.value })} />
               <button type="submit" className="btn-gold">
                 Submit Now
               </button>

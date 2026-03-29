@@ -9,14 +9,14 @@ export function PageLoader() {
   const [done, setDone] = useState(false);
 
   useEffect(() => {
-    if (sessionStorage.getItem("esa-loaded")) { setDone(true); return; }
+    if (sessionStorage.getItem("mount-mary-loaded")) { setDone(true); return; }
     const start = performance.now();
     const duration = 1800;
     const tick = (now: number) => {
       const pct = Math.min(100, Math.round(((now - start) / duration) * 100));
       setProgress(pct);
       if (now - start < duration) requestAnimationFrame(tick);
-      else setTimeout(() => { setDone(true); sessionStorage.setItem("esa-loaded", "1"); }, 280);
+      else setTimeout(() => { setDone(true); sessionStorage.setItem("mount-mary-loaded", "1"); }, 280);
     };
     requestAnimationFrame(tick);
   }, []);
@@ -47,7 +47,7 @@ export function PageLoader() {
             <div className="relative w-24 h-24">
               <Image
                 src={LOGO_URL}
-                alt="El-Shaddai Academy"
+                alt="Mount Mary School"
                 fill
                 className="object-contain"
               />
@@ -56,7 +56,7 @@ export function PageLoader() {
             {/* Name */}
             <div className="text-center">
               <p className="font-display font-700 text-2xl tracking-wide" style={{ color: "var(--text-primary)" }}>
-                El-Shaddai Academy
+                Mount Mary School
               </p>
               <p className="text-xs mt-1 tracking-widest uppercase" style={{ color: "var(--gold)" }}>
                 Empowering Future Leaders

@@ -2,7 +2,8 @@
 const nextConfig = {
   images: {
     remotePatterns: [
-      { protocol: "https", hostname: "elshaddaiacademy.org" },
+      { protocol: "https", hostname: "play-lh.googleusercontent.com" },
+      { protocol: "https", hostname: "mountmaryhsschool.in" },
     ],
   },
 };

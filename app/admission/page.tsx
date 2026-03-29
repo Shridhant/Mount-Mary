@@ -15,9 +15,9 @@ export default function AdmissionPage() {
         <PageIntro
           eyebrow="Admission"
           title="Admission Process"
-          subtitle="A clear four-step journey from registration to final offer, with guidance from the admissions team throughout."
-          image="https://elshaddaiacademy.org/wp-content/uploads/2024/10/a-21-768x512.jpg"
-          imageAlt="Students at El-Shaddai Academy"
+          subtitle="A clear four-step journey from registration to final offer, with guidance from the school team throughout."
+          image="https://mountmaryhsschool.in/wp-content/uploads/2021/03/3.jpg"
+          imageAlt="Students at Mount Mary School"
         />
 
         <section className="section-padding section-paper-soft pt-8">
@@ -25,12 +25,11 @@ export default function AdmissionPage() {
             <div className="rounded-[2rem] border p-6 md:p-7 lg:sticky lg:top-24" style={{ borderColor: "var(--border)", background: "rgba(255,255,255,0.7)" }}>
               <span className="gold-label">Overview</span>
               <h2 className="font-display text-[1.9rem] md:text-[2.35rem] font-700" style={{ color: "var(--text-primary)" }}>
-                El-Shaddai Academy's Admission Process
+                Mount Mary School Admission Process
               </h2>
               <div className="gold-line mt-4" />
               <p className="mt-5 text-[1.02rem] leading-[1.75]" style={{ color: "var(--text-secondary)" }}>
-                Our admissions team will help you with a smooth entry, all the way from registration until your child
-                joins the school through our 4-step admission process.
+                Our school team will help you through registration, document submission, assessment, and final confirmation in a clear 4-step process.
               </p>
               <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-3">
                 <div className="rounded-[1.5rem] border p-4" style={{ borderColor: "var(--border)", background: "rgba(251,253,251,0.9)" }}>
@@ -91,8 +90,8 @@ export default function AdmissionPage() {
               </h2>
               <div className="mt-6 space-y-4 text-[1.02rem] leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
                 <p>Please refer to the checklist of documents attached with the admission form for the documents required for the applicant.</p>
-                <p>UKG to Class 8 applicants will be assessed through written testing in English Grammar and Mathematics, followed by interaction.</p>
-                <p>Parents of eligible applicants from UKG to Class 8 are also called for an interaction with one of the heads of school.</p>
+                <p>Applicants may be guided through written assessment, interaction, and document review depending on the class level.</p>
+                <p>Parents may also be invited for an interaction during the admission process where required.</p>
               </div>
             </div>
 
@@ -102,12 +101,11 @@ export default function AdmissionPage() {
                 Need clarification first?
               </h2>
               <p className="mt-6 text-[1.02rem] leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
-                If you need help with timings, Saturday office availability, or document requirements, reach the school
-                directly before submitting the form.
+                If you need help with timings, Saturday office availability, or document requirements, reach the school directly before submitting the form.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
-                <a href="tel:+913862355024" className="btn-gold">Call School Office</a>
-                <Link href="/contact-us" className="btn-outline">Open Contact Page</Link>
+                <a href="https://mountmaryhsschool.in/contact-us/" target="_blank" rel="noreferrer" className="btn-gold">Open Contact Page</a>
+                <Link href="/contact-us" className="btn-outline">Contact From Website</Link>
               </div>
             </div>
           </div>
@@ -119,19 +117,19 @@ export default function AdmissionPage() {
             <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
               <div>
                 <h2 className="font-display text-[1.9rem] md:text-[2.35rem] font-700" style={{ color: "var(--text-primary)" }}>
-                  Continue to the school admission page
+                  Continue to the official school website
                 </h2>
                 <p className="mt-3 max-w-2xl text-[1.02rem] leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
-                  The official site remains the source for live admission availability and any updated form attachments.
+                  The official Mount Mary site remains the source for current notices, school updates, and contact details.
                 </p>
               </div>
               <a
-                href="https://elshaddaiacademy.org/admission/"
+                href="https://mountmaryhsschool.in/"
                 target="_blank"
                 rel="noreferrer"
                 className="btn-gold"
               >
-                Open Official Admission
+                Open Official Website
               </a>
             </div>
           </div>
