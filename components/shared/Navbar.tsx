@@ -45,12 +45,14 @@ export function Navbar() {
             <Image src={LOGO_URL} alt="Mount Mary Higher Secondary School" fill className="object-contain" />
           </div>
           <div>
-            <span className="font-display font-700 text-base leading-none block" style={{ color: "var(--text-primary)" }}>
-              Mount Mary Higher Secondary
-            </span>
-            <span className="text-[10px] leading-none tracking-widest uppercase" style={{ color: "var(--gold)" }}>
-              School
-            </span>
+         <div className="flex flex-col leading-none">
+  <span className="font-bold text-base" style={{ color: "var(--text-primary)" }}>
+    Mount Mary
+  </span>
+  <span className="text-[10px] tracking-widest uppercase" style={{ color: "var(--gold)" }}>
+    Higher Secondary School
+  </span>
+</div>
           </div>
         </Link>
 
